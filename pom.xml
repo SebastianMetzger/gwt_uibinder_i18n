@@ -7,7 +7,7 @@
   <!-- POM file generated with GWT webAppCreator -->
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.sebastianmetzger.gwt</groupId>
-  <artifactId>gwtUiBinderI18n</artifactId>
+  <artifactId>GWTUiBinderI18n</artifactId>
   <packaging>war</packaging>
   <version>1.0</version>
   <name>GWT Maven Archetype</name>
@@ -61,7 +61,7 @@
   </dependencies>
 
   <build>
-    <!-- Generate compiled stuff in the folder used for developing mode -->
+   <!-- Generate compiled stuff in the folder used for developing mode -->
     <outputDirectory>${webappDirectory}/WEB-INF/classes</outputDirectory>
 
     <plugins>
@@ -80,8 +80,6 @@
           <execution>
             <goals>
               <goal>compile</goal>
-              <goal>test</goal>
-              <goal>i18n</goal>
               <goal>generateAsync</goal>
             </goals>
           </execution>
@@ -89,10 +87,9 @@
         <!-- Plugin configuration. There are many available options, see 
           gwt-maven-plugin documentation at codehaus.org -->
         <configuration>
-          <runTarget>gwtUiBinderI18n.html</runTarget>
+          <runTarget>index.html</runTarget>
           <hostedWebapp>${webappDirectory}</hostedWebapp>
-          <i18nMessagesBundle>com.sebastianmetzger.gwt.client.Messages</i18nMessagesBundle>
-        </configuration>
+         </configuration>
       </plugin>
 
       <!-- Copy static web files before executing gwt:run -->
