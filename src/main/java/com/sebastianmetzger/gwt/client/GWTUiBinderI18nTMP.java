@@ -9,7 +9,7 @@ import com.sebastianmetzger.gwt.client.i18n.WelcomeMessages;
 /**
  * Entry point classes define <code>onModuleLoad()</code>.
  */
-public class GWTUiBinderI18n implements EntryPoint {
+public class GWTUiBinderI18nTMP implements EntryPoint {
     /**
      * The message displayed to the user when the server cannot be reached or
      * returns an error.
