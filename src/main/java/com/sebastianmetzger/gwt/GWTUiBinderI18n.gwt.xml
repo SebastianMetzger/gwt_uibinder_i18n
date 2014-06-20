@@ -10,7 +10,7 @@
   <inherits name='com.google.gwt.user.theme.standard.Standard' />
 
   <!-- Specify the app entry point class.                         -->
-  <entry-point class='com.sebastianmetzger.gwt.client.GWTUiBinderI18nTMP' />
+  <entry-point class='com.sebastianmetzger.gwt.client.GWTUiBinderI18n' />
 
    <!-- Availabe Locales -->
    <extend-property name="locale" values="de"/>
