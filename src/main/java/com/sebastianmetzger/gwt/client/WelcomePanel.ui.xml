@@ -4,9 +4,12 @@
              ui:baseMessagesInterface="com.sebastianmetzger.gwt.client.i18n.WelcomeMessages">
 
     <ui:style>
+        .wrapper {
+            padding: 64px;
+        }
     </ui:style>
 
-    <g:HTMLPanel>
+    <g:HTMLPanel styleName="{style.wrapper}">
         <h1><ui:msg key="heading">Not translated</ui:msg></h1>
         <p><ui:msg key="greeting">Not translated</ui:msg></p>
     </g:HTMLPanel>
